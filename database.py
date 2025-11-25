@@ -1,5 +1,5 @@
 import sqlite3
-import osfrom fotenv import load_dotenv
+import os fotenv from load_dotenv 
 
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
